@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo</title>
+</head>
+<body style="margin: 50px;">
+    <div style="height: 170px; background-color: #472b74; border-radius: 15px; text-align: center; ">
+        <img style="
+        margin-top: 45px; 
+        padding-right: 100px; 
+        float:left;
+        margin-left: 65px;" 
+        src="https://tchdev.techreo.mx:6010/TechreoService/newslatter/assets/logo-bn.png" alt="">
+    </div>
+    <div>
+        <img
+        style="
+        width: 200px; 
+        transform: rotate(-10deg);
+        float:right;
+        margin-right: 65px;
+        margin-top: -150px;
+        " 
+        src="https://tchdev.techreo.mx:6010/TechreoService/newslatter/assets/Icono-token.png" alt="">
+    </div>
+    <div style="margin: 30px;">
+        <div>
+            <P style="color: #2E2063;">Hola: <strong>{{name}}</strong></P>
+            <P style="color: #2E2063;">Nos encata que formes parte de <strong>techreo</strong></P>
+            <br>
+            <hr style="
+            border: 1px solid #B0B932; 
+            background-color: #aadb1e;" >
+        </div>
+        <div>
+            <p style="color: #2E2063;">Ingresa en tu App el siguiente Token de verificación para que puedas acceder al servicio.</p>
+            <p style="color: #2E2063;"><strong>{{token}}</strong></p>
+            <P style="color: #2E2063;">¡Nuestro equipo esta listo para ayudar!</P>
+            <p  style="color: #2E2063;">Si tienes alguna duda envíanos un correo a <strong>{{email}}</strong> , marca al <strong>{{contactCenter}}</strong> o envía un <strong>{{whatsApp}}</strong> </p>
+        </div>
+    </div>
+    <br><br>
+    <footer style="
+    height: 20px; 
+    background-color: rgb(0, 148, 150); 
+    border-radius: 15px;">
+    </footer>
+</body>
+</html>
+
+<style>
+
+    .img{
+        margin-top: 45px; 
+        padding-right: 100px; 
+        float:left;
+        margin-left: 65px;
+    }
+    .hiden{
+        width: 200px; 
+        transform: rotate(-10deg);
+        float:right;
+        margin-right: 65px;
+        margin-top: -150px;
+        
+    }
+    .footer{
+        height: 20px; 
+        background-color: rgb(0, 148, 150); 
+        border-radius: 15px; 
+    }
+    .linea{
+        border: 1px solid #B0B932; 
+        background-color: #aadb1e;
+    }
+    .color{
+        color: #2E2063;
+    }
+/*MOVIL (XS revisamos en 320px)*/
+@media (max-width:600px){
+    .hiden{
+        display: none;
+    }
+}
+</style>

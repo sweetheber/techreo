@@ -1,0 +1,806 @@
+﻿
+
+    .swagger-ui .opblock .opblock-summary-description {
+        font-size: 14px;
+        -ms-flex: 1;
+        flex: 1;
+        font-family: 'Open Sans', sans-serif;
+        color: #3b4151;
+    }
+
+    .swagger-ui .opblock .opblock-summary {
+        display: -ms-flexbox;
+        display: flex;
+        padding: 5px;
+        cursor: pointer;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+    background: #472B74;
+}
+
+.swagger-ui .opblock.opblock-delete {
+    border-color: #bd073b;
+    background: rgb(255 255 255);
+}
+
+    .swagger-ui .opblock.opblock-delete .opblock-summary-method {
+        background: rgb(255 0 35);
+    }
+
+    .swagger-ui .opblock.opblock-delete .opblock-summary {
+        background: rgb(255 0 35);
+    }
+
+.swagger-ui .opblock.opblock-get {
+    border-color: rgba( 71, 43, 116, 0.3);
+    background: rgb(255 255 255);
+}
+
+    .swagger-ui .opblock.opblock-get .opblock-summary-method {
+        background: #aadb1e;
+    }
+    .swagger-ui .opblock.opblock-get .opblock-summary {
+        border-color: rgb(71 43 116);
+        !important :;
+    }
+
+
+    .swagger-ui .opblock.opblock-head .opblock-summary-method {
+        background: #8012ee;
+    }
+
+    .swagger-ui .opblock.opblock-head .opblock-summary {
+        border-color: #8012ee;
+    }
+
+.swagger-ui .opblock.opblock-options {
+    border-color: #0d4e9a;
+    background: rgba(13, 78, 154, 0.1);
+}
+
+    .swagger-ui .opblock.opblock-options .opblock-summary-method {
+        background: #0d4e9a;
+    }
+
+    .swagger-ui .opblock.opblock-options .opblock-summary {
+        border-color: #0d4e9a;
+    }
+
+.swagger-ui .opblock.opblock-deprecated {
+    opacity: .6;
+    border-color: #e1e1e1;
+    background: rgba(225, 225, 225, 0.1);
+}
+
+    .swagger-ui .opblock.opblock-deprecated .opblock-summary-method {
+        background: #e1e1e1;
+    }
+
+    .swagger-ui .opblock.opblock-deprecated .opblock-summary {
+        border-color: #e1e1e1;
+    }
+
+.swagger-ui .opblock .opblock-schemes {
+    padding: 8px 20px;
+}
+
+    .swagger-ui .opblock .opblock-schemes .schemes-title {
+        padding: 0 10px 0 0;
+    }
+
+.swagger-ui .tab {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px 0 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .swagger-ui .tab li {
+        font-size: 12px;
+        min-width: 100px;
+        min-width: 90px;
+        padding: 0;
+        cursor: pointer;
+        font-family: 'Titillium Web', sans-serif;
+        color: #3b4151;
+    }
+
+        .swagger-ui .tab li:first-of-type {
+            position: relative;
+            padding-left: 0;
+        }
+
+            .swagger-ui .tab li:first-of-type:after {
+                position: absolute;
+                top: 0;
+                right: 6px;
+                width: 1px;
+                height: 100%;
+                content: '';
+                background: rgba(0, 0, 0, 0.2);
+            }
+
+        .swagger-ui .tab li.active {
+            font-weight: bold;
+        }
+
+.swagger-ui .opblock-description-wrapper,
+.swagger-ui .opblock-title_normal {
+    font-size: 12px;
+    margin: 0 0 5px 0;
+    padding: 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3b4151;
+}
+
+    .swagger-ui .opblock-description-wrapper h4,
+    .swagger-ui .opblock-title_normal h4 {
+        font-size: 12px;
+        margin: 0 0 5px 0;
+        font-family: 'Open Sans', sans-serif;
+        color: #3b4151;
+    }
+
+    .swagger-ui .opblock-description-wrapper p,
+    .swagger-ui .opblock-title_normal p {
+        font-size: 14px;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        color: #3b4151;
+    }
+
+.swagger-ui .execute-wrapper {
+    padding: 20px;
+    text-align: right;
+}
+
+    .swagger-ui .execute-wrapper .btn {
+        width: 100%;
+        padding: 8px 40px;
+    }
+
+.swagger-ui .body-param-options {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+    .swagger-ui .body-param-options .body-param-edit {
+        padding: 10px 0;
+    }
+
+    .swagger-ui .body-param-options label {
+        padding: 8px 0;
+    }
+
+        .swagger-ui .body-param-options label select {
+            margin: 3px 0 0 0;
+        }
+
+.swagger-ui .responses-inner {
+    padding: 20px;
+}
+
+    .swagger-ui .responses-inner h5,
+    .swagger-ui .responses-inner h4 {
+        font-size: 12px;
+        margin: 10px 0 5px 0;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        color: #3b4151;
+    }
+
+.swagger-ui .response-col_status {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3b4151;
+}
+
+    .swagger-ui .response-col_status .response-undocumented {
+        font-size: 11px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 600;
+        color: #999;
+    }
+
+.swagger-ui .response-col_description__inner span {
+    font-size: 12px;
+    font-style: italic;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background: #41444e;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: #fff;
+}
+
+    .swagger-ui .response-col_description__inner span p {
+        margin: 0;
+    }
+
+.swagger-ui .opblock-body pre {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    white-space: pre-wrap;
+    border-radius: 4px;
+    background: #41444e;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: #fff;
+}
+
+    .swagger-ui .opblock-body pre span {
+        color: #fff !important;
+    }
+
+.swagger-ui .scheme-container {
+    margin: 0 0 0 0;
+    padding: 30px 0;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+    .swagger-ui .scheme-container .schemes {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+        .swagger-ui .scheme-container .schemes > label {
+            font-size: 12px;
+            font-weight: bold;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin: -20px 15px 0 0;
+            font-family: 'Titillium Web', sans-serif;
+            color: #3b4151;
+        }
+
+            .swagger-ui .scheme-container .schemes > label select {
+                min-width: 130px;
+                text-transform: uppercase;
+            }
+
+.swagger-ui .loading-container {
+    padding: 40px 0 60px;
+}
+
+    .swagger-ui .loading-container .loading {
+        position: relative;
+    }
+
+        .swagger-ui .loading-container .loading:after {
+            font-size: 10px;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            content: 'loading';
+            transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            font-family: 'Titillium Web', sans-serif;
+            color: #3b4151;
+        }
+
+        .swagger-ui .loading-container .loading:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: block;
+            width: 60px;
+            height: 60px;
+            margin: -30px -30px;
+            content: '';
+            animation: rotation 1s infinite linear, opacity .5s;
+            opacity: 1;
+            border: 2px solid rgba(85, 85, 85, 0.1);
+            border-top-color: rgba(0, 0, 0, 0.6);
+            border-radius: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+
+
+
+    .swagger-ui .example ul li[style], .swagger-ui .body-param__example ul li[style] {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+.swagger-ui .example.jsonTree, .swagger-ui .body-param__example.jsonTree {
+    border-radius: 4px;
+    padding-left: 12px;
+    background-color: #41444e;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+.swagger-ui .responseBody span {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: #8eb632;
+    font-size: 12px;
+}
+
+.swagger-ui .opblock.opblock-get .tab-header .tab-item.active h4 span:after {
+    background: #472b74;
+}
+
+.swagger-ui .opblock.opblock-post .tab-header .tab-item.active h4 span:after {
+    background: #472b74;
+}
+
+.swagger-ui .btn.execute {
+    background-color: #472b74;
+    border-color: #472b74;
+    color: #fff;
+}
+
+
+
+.swagger-ui section.models {
+    margin: 30px 0;
+    border: 1px solid rgba(71,43,116,0.3);
+    border-radius: 4px;
+}
+
+    .swagger-ui section.models.is-open {
+        padding: 0 0 20px;
+    }
+
+        .swagger-ui section.models.is-open h4 {
+            margin: 0 0 5px 0;
+            border-bottom: 1px solid rgb(71 43 116))
+        }
+
+            .swagger-ui section.models.is-open h4 svg {
+                transform: rotate(90deg);
+            }
+
+    .swagger-ui section.models h4 {
+        font-size: 16px;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+        padding: 10px 20px 10px 10px;
+        cursor: pointer;
+        transition: all .2s;
+        font-family: 'Titillium Web', sans-serif;
+        color: #777;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+        .swagger-ui section.models h4 svg {
+            transition: all .4s;
+        }
+
+        .swagger-ui section.models h4 span {
+            -ms-flex: 1;
+            flex: 1;
+        }
+
+        .swagger-ui section.models h4:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+    .swagger-ui section.models h5 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+        font-family: 'Titillium Web', sans-serif;
+        color: #777;
+    }
+
+    .swagger-ui section.models .model-jump-to-path {
+        position: relative;
+        top: 5px;
+    }
+
+    .swagger-ui section.models .model-container {
+        margin: 0 20px 15px;
+        transition: all .5s;
+        border-radius: 4px;
+        background: rgb(247 247 247);
+    }
+
+        .swagger-ui section.models .model-container:hover {
+            background: rgba( 71, 43, 116, 0.08);
+        }
+
+        .swagger-ui section.models .model-container:first-of-type {
+            margin: 20px;
+        }
+
+        .swagger-ui section.models .model-container:last-of-type {
+            margin: 0 20px;
+        }
+
+    .swagger-ui section.models .model-box {
+        background: none;
+    }
+
+
+
+
+.swagger-ui .parameters-col_description p {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #3b4151;
+}
+
+.swagger-ui .parameters-col_description input[type=text] {
+    width: 100%;
+    max-width: 340px;
+}
+
+.swagger-ui .parameter__name {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Titillium Web', sans-serif;
+    color: #3b4151;
+}
+
+    .swagger-ui .parameter__name.required {
+        font-weight: bold;
+    }
+
+        .swagger-ui .parameter__name.required:after {
+            font-size: 10px;
+            position: relative;
+            top: -6px;
+            padding: 5px;
+            content: 'required';
+            color: rgba(255, 0, 0, 0.6);
+        }
+
+.swagger-ui .parameter__in {
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: #888;
+}
+
+.swagger-ui .table-container {
+    padding: 20px;
+}
+
+
+.swagger-ui .info {
+    margin: 50px 0;
+}
+
+    .swagger-ui .info hgroup.main {
+        margin: 0 0 20px 0;
+    }
+
+        .swagger-ui .info hgroup.main a {
+            font-size: 12px;
+        }
+
+    .swagger-ui .info p {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #3b4151;
+    }
+
+    .swagger-ui .info code {
+        padding: 3px 5px;
+        border-radius: 4px;
+        background: rgba(0, 0, 0, 0.05);
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 600;
+        color: #9012fe;
+    }
+
+    .swagger-ui .info a {
+        font-size: 14px;
+        transition: all .4s;
+        font-family: 'Open Sans', sans-serif;
+        color: #4990e2;
+    }
+
+        .swagger-ui .info a:hover {
+            color: #1f69c0;
+        }
+
+    .swagger-ui .info > div {
+        margin: 0 0 5px 0;
+    }
+
+    .swagger-ui .info .base-url {
+        font-size: 12px;
+        font-weight: 300 !important;
+        margin: 0;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 600;
+        color: #3b4151;
+    }
+
+    .swagger-ui .info .title {
+        font-size: 36px;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        color: #00BFB2;
+    }
+
+        .swagger-ui .info .title small {
+            font-size: 10px;
+            position: relative;
+            top: -5px;
+            display: inline-block;
+            margin: 0 0 0 5px;
+            padding: 2px 4px;
+            vertical-align: super;
+            border-radius: 57px;
+            background: #000000;
+        }
+
+            .swagger-ui .info .title small pre {
+                margin: 0;
+                font-family: 'Titillium Web', sans-serif;
+                color: #fff;
+            }
+
+.swagger-ui .auth-btn-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 0;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.swagger-ui .auth-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+    .swagger-ui .auth-wrapper .authorize {
+        padding-right: 20px;
+    }
+
+.swagger-ui .auth-container {
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+    .swagger-ui .auth-container:last-of-type {
+        margin: 0;
+        padding: 10px 20px;
+        border: 0;
+    }
+
+    .swagger-ui .auth-container h4 {
+        margin: 5px 0 15px 0 !important;
+    }
+
+    .swagger-ui .auth-container .wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .swagger-ui .auth-container input[type=text],
+    .swagger-ui .auth-container input[type=password] {
+        min-width: 230px;
+    }
+
+    .swagger-ui .auth-container .errors {
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 4px;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 600;
+        color: #3b4151;
+    }
+
+.swagger-ui .scopes h2 {
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #3b4151;
+}
+
+.swagger-ui .scope-def {
+    padding: 0 0 20px 0;
+}
+
+.swagger-ui .errors-wrapper {
+    margin: 20px;
+    padding: 10px 20px;
+    animation: scaleUp .5s;
+    border: 2px solid #bd073b;
+    border-radius: 4px;
+    background: rgba(189, 7, 59, 0.1);
+}
+
+    .swagger-ui .errors-wrapper .error-wrapper {
+        margin: 0 0 10px 0;
+    }
+
+    .swagger-ui .errors-wrapper .errors h4 {
+        font-size: 14px;
+        margin: 0;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 600;
+        color: #3b4151;
+    }
+
+    .swagger-ui .errors-wrapper .errors small {
+        color: #666;
+    }
+
+    .swagger-ui .errors-wrapper hgroup {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+        .swagger-ui .errors-wrapper hgroup h4 {
+            font-size: 20px;
+            margin: 0;
+            -ms-flex: 1;
+            flex: 1;
+            font-family: 'Titillium Web', sans-serif;
+            color: #3b4151;
+        }
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.swagger-ui .Resizer.vertical.disabled {
+    display: none;
+}
+
+
+/*custom*/
+
+/*logo*/
+.topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+    visibility: hidden;
+}
+
+.topbar-wrapper .link:after {
+    content: '';
+    color: #1d1d1b;
+    visibility: visible;
+    display: block;
+    position: absolute;
+    padding: 35px;
+}
+
+.swagger-ui .topbar a {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #626262;
+    background-image: url(../swagger-ui/logo-bn.png);
+    background-repeat: no-repeat;
+    background-size: 110px 40px;
+}
+
+.swagger-ui .btn.authorize {
+    line-height: 1;
+    display: inline;
+    color: #e4032e;
+    border-color: #e4032e;
+}
+
+.swagger-ui .btn.authorize {
+    line-height: 1;
+    display: inline;
+    color: #e4032e;
+    border-color: #e4032e;
+}
+
+    .swagger-ui .btn.authorize svg {
+        fill: #1e3582;
+    }
+
+.swagger-ui .topbar {
+    background-color: #472B74;
+    padding: 10px 0;
+}
+.swagger-ui .info a {
+    font-size: 14px;
+    transition: all .4s;
+    font-family: 'Open Sans', sans-serif;
+    color: #747474;
+}
+
+.swagger-ui .opblock.opblock-post {
+    background: rgb(255 255 255);
+    border-color: #aadb1e;
+}
+.swagger-ui {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    background: #f7f7f7;
+}
+
+
+    .swagger-ui section.models {
+        margin: 30px 0;
+        border: 1px solid rgb(71 43 116);
+        border-radius: 4px;
+    }
+
+.swagger-ui .info .title small {
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 2px 4px;
+    vertical-align: super;
+    border-radius: 57px;
+    background: #472b74;
+}
+
+.swagger-ui .scheme-container {
+    margin: 0 0 0 0;
+    padding: 30px 0;
+    background: #f7f7f7;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+}
+
+.swagger-ui .btn.authorize {
+    line-height: 1;
+    display: inline;
+    color: #472b74;
+    border-color: #472b74;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+    color: #472b74;
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content h4 {
+    color: #aadb1e;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 0;
+}
